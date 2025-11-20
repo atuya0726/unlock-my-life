@@ -1,0 +1,62 @@
+[
+  {
+    "title": "ようこそ！この素晴らしき神ゲーへ",
+    "description": "この世に生を受ける",
+    "tags": ["life", "growth"],
+    "icon": "🌟",
+    "points": 0,
+    "difficulty": "unmeasurable",
+    "time": "それ以上",
+    "status": "unlocked"
+  },
+  {
+    "title": "モラトリアムは終わりだ！！！",
+    "description": "初めて正社員または契約社員として企業に入社した時に取得。アルバイトは対象外",
+    "tags": ["work", "growth"],
+    "icon": "💼",
+    "points": 30,
+    "difficulty": "normal",
+    "time": "一ヶ月程度",
+    "status": "locked"
+  },
+  {
+    "title": "俺がバチェラーだ！！！",
+    "description": "大学を卒業した時に取得",
+    "tags": ["study", "growth"],
+    "icon": "🎓",
+    "points": 50,
+    "difficulty": "normal",
+    "time": "四年程度",
+    "status": "locked"
+  },
+  {
+    "title": "初めての恋人",
+    "description": "恋愛関係になった相手ができた時に取得",
+    "tags": ["love", "growth"],
+    "icon": "💕",
+    "points": 20,
+    "difficulty": "unmeasurable",
+    "time": "それ以上",
+    "status": "locked"
+  },
+  {
+    "title": "初めてのキスはレモンの味",
+    "description": "初めてキスをした時に取得",
+    "tags": ["love", "growth"],
+    "icon": "💋",
+    "points": 10,
+    "difficulty": "unmeasurable",
+    "time": "それ以上",
+    "status": "locked"
+  },
+  {
+    "title": "私たち...もう別れましょう...",
+    "description": "恋人と別れた時に取得",
+    "tags": ["love", "growth"],
+    "icon": "💑",
+    "points": 10,
+    "difficulty": "unmeasurable",
+    "time": "それ以上",
+    "status": "locked"
+  }
+]

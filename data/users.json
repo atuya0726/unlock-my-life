@@ -1,0 +1,83 @@
+[
+  {
+    "id": "user-1",
+    "name": "山田太郎",
+    "avatar": "👨",
+    "totalPoints": 850,
+    "unlockedCount": 14,
+    "achievementRate": 87
+  },
+  {
+    "id": "user-2",
+    "name": "佐藤花子",
+    "avatar": "👩",
+    "totalPoints": 720,
+    "unlockedCount": 12,
+    "achievementRate": 75
+  },
+  {
+    "id": "user-3",
+    "name": "鈴木一郎",
+    "avatar": "🧑",
+    "totalPoints": 680,
+    "unlockedCount": 11,
+    "achievementRate": 68
+  },
+  {
+    "id": "user-4",
+    "name": "田中美咲",
+    "avatar": "👩‍💼",
+    "totalPoints": 590,
+    "unlockedCount": 10,
+    "achievementRate": 62
+  },
+  {
+    "id": "user-5",
+    "name": "高橋健太",
+    "avatar": "👨‍💻",
+    "totalPoints": 520,
+    "unlockedCount": 9,
+    "achievementRate": 56
+  },
+  {
+    "id": "user-6",
+    "name": "伊藤さくら",
+    "avatar": "👩‍🎓",
+    "totalPoints": 480,
+    "unlockedCount": 8,
+    "achievementRate": 50
+  },
+  {
+    "id": "user-7",
+    "name": "渡辺大輔",
+    "avatar": "👨‍🔧",
+    "totalPoints": 420,
+    "unlockedCount": 7,
+    "achievementRate": 43
+  },
+  {
+    "id": "user-8",
+    "name": "中村愛",
+    "avatar": "👩‍🎨",
+    "totalPoints": 380,
+    "unlockedCount": 6,
+    "achievementRate": 37
+  },
+  {
+    "id": "user-9",
+    "name": "小林拓也",
+    "avatar": "👨‍🏫",
+    "totalPoints": 320,
+    "unlockedCount": 5,
+    "achievementRate": 31
+  },
+  {
+    "id": "user-10",
+    "name": "加藤優香",
+    "avatar": "👩‍⚕️",
+    "totalPoints": 280,
+    "unlockedCount": 4,
+    "achievementRate": 25
+  }
+]
+
