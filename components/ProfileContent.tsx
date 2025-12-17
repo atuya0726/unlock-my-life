@@ -101,3 +101,4 @@ export default function ProfileContent({ initialProfile }: ProfileContentProps) 
     </main>
   );
 }
+

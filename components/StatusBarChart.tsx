@@ -75,3 +75,4 @@ export default function StatusBarChart({ achievements }: StatusBarChartProps) {
     </div>
   );
 }
+

@@ -15,3 +15,4 @@ export default async function ProfilePage() {
 
   return <ProfileContent initialProfile={profile} />;
 }
+

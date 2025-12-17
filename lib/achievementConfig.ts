@@ -45,3 +45,4 @@ export function getAllowedStatuses(achievementId: string): AchievementStatus[] {
 export function getAchievementConfig(achievementId: string): AchievementConfig | undefined {
   return achievementConfigs[achievementId];
 }
+
