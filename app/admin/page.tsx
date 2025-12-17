@@ -5,17 +5,11 @@ import Link from 'next/link';
 import { Achievement, AchievementStatus, AchievementDifficulty, AchievementTime } from '@/types/achievement';
 import { Tag } from '@/types/tag';
 import tagsData from '@/data/tags.json';
+import { formatTime, formatDifficultyText } from '@/lib/formatters';
 
 const DIFFICULTIES: AchievementDifficulty[] = ['easy', 'normal', 'hard', 'unmeasurable'];
-const TIMES: AchievementTime[] = ['1日程度', '一週間程度', '一ヶ月程度', '一年程度', '四年程度', 'それ以上'];
+const TIMES: AchievementTime[] = ['day', 'week', 'month', 'year', 'over'];
 const STATUSES: AchievementStatus[] = ['locked', 'in-progress', 'unlocked'];
-
-const DIFFICULTY_LABELS: Record<AchievementDifficulty, string> = {
-  easy: '簡単',
-  normal: '普通',
-  hard: '難しい',
-  unmeasurable: '測定不可',
-};
 
 const STATUS_LABELS: Record<AchievementStatus, string> = {
   locked: '未解除',
@@ -36,11 +30,12 @@ export default function AdminPage() {
     id: '',
     title: '',
     description: '',
+    category: 'EXP',
     tags: [],
     icon: '',
     points: 0,
     difficulty: 'normal',
-    time: '一ヶ月程度',
+    time: 'month',
     status: 'locked',
   };
 
@@ -240,10 +235,10 @@ export default function AdminPage() {
                           {achievement.points}pt
                         </span>
                         <span className="px-2 py-1 bg-purple-200 text-purple-800 rounded">
-                          {DIFFICULTY_LABELS[achievement.difficulty]}
+                          {formatDifficultyText(achievement.difficulty)}
                         </span>
                         <span className="px-2 py-1 bg-orange-200 text-orange-800 rounded">
-                          {achievement.time}
+                          {formatTime(achievement.time)}
                         </span>
                         <span
                           className={`px-2 py-1 rounded ${
@@ -386,7 +381,7 @@ export default function AdminPage() {
                 >
                   {DIFFICULTIES.map((diff) => (
                     <option key={diff} value={diff}>
-                      {DIFFICULTY_LABELS[diff]}
+                      {formatDifficultyText(diff)}
                     </option>
                   ))}
                 </select>
@@ -405,7 +400,7 @@ export default function AdminPage() {
                 >
                   {TIMES.map((time) => (
                     <option key={time} value={time}>
-                      {time}
+                      {formatTime(time)}
                     </option>
                   ))}
                 </select>

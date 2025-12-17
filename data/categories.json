@@ -1,0 +1,42 @@
+[
+  {
+    "id": "INT",
+    "name": "Intellect",
+    "nameJa": "知力",
+    "description": "知識、スキル、資格、学歴",
+    "color": "#3B82F6",
+    "icon": "🧠"
+  },
+  {
+    "id": "WLT",
+    "name": "Wealth",
+    "nameJa": "財力",
+    "description": "お金、市場価値のある所有物",
+    "color": "#F59E0B",
+    "icon": "💰"
+  },
+  {
+    "id": "VIT",
+    "name": "Vitality",
+    "nameJa": "体力",
+    "description": "筋力、健康、運動能力",
+    "color": "#EF4444",
+    "icon": "💪"
+  },
+  {
+    "id": "SOC",
+    "name": "Social",
+    "nameJa": "社会",
+    "description": "影響力、地位、人脈、家族",
+    "color": "#8B5CF6",
+    "icon": "👥"
+  },
+  {
+    "id": "EXP",
+    "name": "Experience",
+    "nameJa": "経験",
+    "description": "思い出、行動、移動、消費体験",
+    "color": "#10B981",
+    "icon": "✨"
+  }
+]
