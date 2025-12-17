@@ -5,9 +5,10 @@ import Link from 'next/link';
 interface HeaderProps {
   isLoggedIn: boolean;
   showRanking?: boolean;
+  userAvatarUrl?: string | null;
 }
 
-export default function Header({ isLoggedIn, showRanking = true }: HeaderProps) {
+export default function Header({ isLoggedIn, showRanking = true, userAvatarUrl }: HeaderProps) {
   return (
     <nav className="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-40">
       <div className="container mx-auto px-3 sm:px-4 max-w-7xl">
